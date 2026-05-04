@@ -1,1 +1,167 @@
+# 🎬 Netflix Customer Churn Analysis (End-to-End Data Analytics Project)
+
+## 📌 Project Overview
+
+This project focuses on analyzing customer behavior and predicting churn for a subscription-based platform like Netflix. The goal is to identify customers who are likely to cancel their subscription and provide actionable business insights.
+
+The project covers the complete data analytics lifecycle including:
+
+* Data Cleaning
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Machine Learning Model Building
+* Model Evaluation
+* Dashboard Visualization (Power BI)
+
+---
+
+## 🎯 Business Problem
+
+Customer churn is a major challenge for subscription-based companies. Identifying customers who are likely to leave helps businesses:
+
+* Improve customer retention
+* Increase revenue
+* Provide personalized offers
+
+---
+
+## 🛠️ Technologies Used
+
+* **Microsoft Excel** – Data storage and basic formatting
+* **SQL (MySQL)** – Data querying and analysis
+* **Python** – Data processing and machine learning
+* **Pandas & NumPy** – Data manipulation
+* **Matplotlib & Seaborn** – Data visualization
+* **Scikit-learn** – Machine learning model
+* **Power BI** – Dashboard creation
+* **Jupyter Notebook** – Development environment
+
+---
+
+## 📂 Project Structure
+
+### 📁 1. Data
+
+Contains all datasets used in the project:
+
+* `raw_data.csv` → Original dataset
+* `cleaned_data.csv` → Cleaned dataset
+* `feature_importance.csv` → Important features from model
+* `churn_predictions.csv` → Model predictions
+* `final_dataset.csv` → Processed dataset used for ML
+
+---
+
+### 📁 2. Notebooks
+
+Step-by-step implementation:
+
+* `data_cleaning.ipynb` → Handling missing values & preprocessing
+* `EDA.ipynb` → Data analysis & visualization
+* `feature_engineering.ipynb` → Feature selection & encoding
+* `ml_model.ipynb` → Model training (Logistic Regression & Random Forest)
+* `predictions.ipynb` → Model predictions
+* `export.ipynb` → Exporting results
+
+---
+
+### 📁 3. Model
+
+Saved machine learning components:
+
+* `churn_model.pkl` → Trained Random Forest model
+* `scaler.pkl` → StandardScaler used for preprocessing
+
+---
+
+### 📁 4. Power BI
+
+* `dashboard.pbix` → Interactive churn analysis dashboard
+
+---
+
+## 🤖 Machine Learning Model
+
+* Models Used:
+
+  * Logistic Regression
+  * Random Forest (Final Model)
+
+* Steps:
+
+  * Data splitting (Train/Test)
+  * Feature scaling
+  * Model training
+  * Prediction
+  * Evaluation
+
+---
+
+## 📊 Model Evaluation
+
+The model is evaluated using:
+
+* **Accuracy Score**
+* **Confusion Matrix**
+* **Classification Report**
+
+The model successfully identifies churn customers with good performance while handling class imbalance.
+
+---
+
+## 📈 Dashboard Insights (Power BI)
+
+The dashboard provides key insights such as:
+
+* Churn Rate (%)
+* Total Subscribers
+* Subscription Plan vs Churn
+* Payment Method Impact
+* Subscription Duration vs Churn
+* Gender-wise Analysis
+
+---
+
+## 🧠 Key Insights
+
+* Customers with shorter subscription duration are more likely to churn
+* Certain payment methods show higher churn rates
+* Monthly subscription cost impacts customer retention
+* Contract type (subscription plan) plays a major role in churn
+
+---
+
+## 🚀 How to Use the Model
+
+```python
+import joblib
+
+# Load model and scaler
+model = joblib.load("Model/churn_model.pkl")
+scaler = joblib.load("Model/scaler.pkl")
+
+# Transform input data
+sample_scaled = scaler.transform(sample_data)
+
+# Predict
+prediction = model.predict(sample_scaled)
+```
+
+---
+
+## 🎯 Conclusion
+
+This project demonstrates how data analytics and machine learning can be used to:
+
+* Understand customer behavior
+* Predict churn
+* Support business decision-making
+
+It is a complete end-to-end data analytics project suitable for real-world applications.
+
+---
+
+## 👨‍💻 Author
+
+**Kornel B**
 
