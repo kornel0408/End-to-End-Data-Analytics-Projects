@@ -1,0 +1,14 @@
+discharge_disposition_id,description
+1,Home
+2,Hospital Transfer
+3,Nursing/Rehab Care
+4,Hospice Care
+5,Expired
+6,Outpatient Services
+7,Psychiatric Care
+8,Left Against Advice
+9,Inpatient Admission
+10,Neonatal Care
+11,Swing Bed
+12,Outpatient Return
+13,Unknown

@@ -1,0 +1,22 @@
+admission_source_id,description
+1,Physician Referral
+2,Clinic Referral
+3,HMO Referral
+4,Hospital Transfer
+5,SNF Transfer
+6,Healthcare Transfer
+7,Emergency Room
+8,Law Enforcement
+9,Critical Hospital Transfer
+10,Premature Delivery
+11,Sick Baby
+12,External Birth
+13,Home Health Transfer
+14,Home Health Readmission
+15,Same Facility Transfer
+16,Born Inside Hospital
+17,Born Outside Hospital
+18,Surgery Center Transfer
+19,Hospice Transfer
+20,Unknown
+21,Normal Delivery
