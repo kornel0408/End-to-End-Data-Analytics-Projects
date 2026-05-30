@@ -1,1 +1,152 @@
+## 📖 Overview
+The Diabetes Patient Readmission Analysis Dashboard is an end-to-end healthcare analytics project designed to identify the key factors influencing patient readmissions. Using hospital records of diabetic patients, this project applies data cleaning, SQL analysis, exploratory data analysis (EDA), and interactive dashboarding to uncover actionable insights that can help healthcare organizations improve patient outcomes and reduce readmission rates.
 
+The project follows a complete analytics workflow from raw data processing to business intelligence reporting using Python, SQL, and Power BI.
+
+---
+
+## 🎯 Business Objective
+Hospital readmissions are a major challenge for healthcare providers as they increase treatment costs, resource utilization, and patient risk.
+
+This project aims to answer the question:
+
+> **"What factors increase diabetes patient readmission?"**
+
+---
+
+## 🛠️ Tools & Technologies
+- **Python**
+  - Pandas
+  - NumPy
+  - Matplotlib
+- **SQL (MySQL)**
+- **Power BI**
+- **Excel**
+
+---
+
+## 📂 Project Workflow
+
+### 1. Data Cleaning & Preprocessing
+- Handled missing values
+- Removed duplicates
+- Standardized categorical variables
+- Categorized diagnosis codes
+- Cleaned admission and discharge tables
+- Created meaningful diagnosis categories
+
+### 2. SQL Analysis
+Performed structured analysis across multiple business areas:
+
+#### 👥 Patient Analysis
+- Total Patients
+- Gender Distribution
+- Age Distribution
+- Average Medications by Age
+
+#### 🏥 Hospital Analysis
+- Admission Type Analysis
+- Average Hospital Stay
+- Lab Procedures Analysis
+- Long Stay Patients
+
+#### 🔁 Readmission Analysis
+- Readmission by Age Group
+- Readmission by Gender
+- Readmission by Admission Type
+- Readmission by Medical Specialty
+- Readmission by Diagnosis Category
+
+#### 💊 Medication Analysis
+- Insulin Usage
+- Diabetes Medication Analysis
+- Medication Change Impact on Readmission
+
+#### 🩺 Diagnosis Analysis
+- Most Common Diagnoses
+- Diagnosis vs Readmission
+- Diagnosis vs Hospital Stay
+- Diagnosis vs Medication Usage
+
+### 3. Exploratory Data Analysis (EDA)
+Performed:
+- Univariate Analysis
+- Bivariate Analysis
+- Correlation Analysis
+- Data Visualization
+
+### 4. Dashboard Development
+Designed an interactive healthcare dashboard inspired by the Apollo Hospitals theme.
+
+---
+
+## 📊 Dashboard Features
+
+### Executive KPIs
+- Total Patients
+- Readmission Rate
+- Total Readmitted Patients
+- Average Hospital Stay
+- Average Medications
+- Average Lab Procedures
+
+### Interactive Analysis
+- Patient Demographics
+- Hospital Operations
+- Readmission Insights
+- Medication Analysis
+- Diagnosis Analysis
+
+### Filters
+- Age Group
+- Gender
+- Readmission Status
+- Admission Type
+- Diagnosis Category
+
+---
+
+## 🔍 Key Insights
+
+- Elderly patients (70–80 age group) have the highest readmission rates.
+- Emergency admissions are associated with increased readmission risk.
+- Circulatory diseases contribute significantly to patient readmissions.
+- Longer hospital stays are linked to higher chances of readmission.
+- Patients requiring more medications generally represent higher-risk cases.
+- Medication changes alone do not significantly reduce readmission rates.
+- Internal Medicine and Emergency departments handle the majority of readmitted patients.
+
+---
+
+## 💡 Recommendations
+
+- Strengthen post-discharge follow-up for elderly patients.
+- Improve discharge planning for emergency admissions.
+- Develop specialized care programs for high-risk diagnosis categories.
+- Enhance medication adherence and patient education.
+- Implement predictive monitoring systems for early readmission detection.
+
+---
+
+## 📈 Project Outcome
+This project successfully identifies the major factors influencing diabetes patient readmission and demonstrates how data analytics can support healthcare organizations in making informed, data-driven decisions.
+
+---
+
+## 🚀 Future Enhancements
+- Build a Machine Learning model for readmission prediction.
+- Develop patient risk scoring systems.
+- Integrate real-time healthcare data.
+- Create automated patient monitoring dashboards.
+
+---
+
+## 📷 Dashboard Preview
+Add dashboard screenshots in the `/screenshots` folder and display them here.
+
+---
+
+## 👨‍💻 Author
+**Kornel B**
+
+Aspiring Data Analyst | SQL | Python | Power BI | Excel
